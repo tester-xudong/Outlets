@@ -10,7 +10,7 @@ def init_driver():
     desired_caps['unicodeKeyboard'] = True
     desired_caps['resetKeyboard'] = True
     desired_caps['noReset'] = True
-
+    desired_caps['automationName'] = 'Uiautomator2'
     # app信息
     desired_caps['appPackage'] = 'com.yunmall.lc'
     desired_caps['appActivity'] = 'com.yunmall.ymctoc.ui.activity.MainActivity'
